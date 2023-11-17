@@ -12,7 +12,7 @@ You will probably need to edit some of the config files to get them working for 
 ## Move configs
 
 ```bash
-cp -r /config/* ~/.config/
+cp -r config ~/.config/
 ```
 
 ## Packages to install
