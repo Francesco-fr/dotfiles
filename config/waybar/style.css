@@ -1,0 +1,36 @@
+* {
+	font-size: 20px;
+	font-family: JetBrains Mono;
+	padding: 0;
+}
+
+window#waybar {
+	background-color: transparent;
+	color: #bd93f9;
+}
+
+#workspaces {
+	border-bottom: 2px solid #BD93F9;
+}
+
+#workspaces button {
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #bd93f9;
+}
+#workspaces button.active {
+	color: #ff79c6;
+}
+
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+#clock,#pulseaudio,#memory,#cpu,#tray {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 2px solid #BD93F9;
+}

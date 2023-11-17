@@ -1,0 +1,56 @@
+// -*- mode: json -*-
+
+{
+	"layer": "top",
+	"position": "bottom",
+
+	"modules-left": [
+		"hyprland/workspaces",
+	],
+	"modules-center": [
+		"clock",
+	],
+	"modules-right": [
+		"pulseaudio",
+		"memory",
+		"cpu",
+		"tray",
+	],
+
+	"hyprland/workspaces": {
+	"format": "{id}"
+	},
+
+	"clock": {
+		"interval": 1,
+                "format": "{:%H:%M:%S}",
+                "tooltip": false
+        },
+
+	"pulseaudio": {
+		"format": "{icon} {volume:2}%",
+		"format-bluetooth": "{icon}  {volume}%",
+		"format-muted": "MUTE",
+		"format-icons": {
+			"headphones": "",
+			"default": [
+				"",
+				""
+			]
+		},
+		"scroll-step": 5,
+		"on-click": "pavucontrol"
+	},
+	"memory": {
+		"interval": 5,
+		"format": "Ram {}%"
+	},
+	"cpu": {
+		"interval": 5,
+		"format": "CPU {usage:2}%"
+	},
+	"tray": {
+		"icon-size": 20,
+		"spacing": 1
+	}
+}
