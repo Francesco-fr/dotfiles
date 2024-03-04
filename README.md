@@ -20,7 +20,7 @@ cp -r config/* ~/.config/
 ### Packages
 
 ```bash
-yay -S hyprland sddm-git xdg-desktop-portal-hyprland eww-wayland hyprpaper hyprshot kitty nemo p7zip-gui polkit-kde-agent pyprland waybar wofi btop neofetch pipes.sh qt5-wayland qt6-wayland
+yay -S hyprland sddm-git xdg-desktop-portal-hyprland hyprpaper hyprshot kitty nemo p7zip-gui polkit-kde-agent pyprland waybar wofi btop neofetch qt5-wayland qt6-wayland
 ```
 
 ### Fonts
